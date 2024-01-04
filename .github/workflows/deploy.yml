@@ -41,6 +41,6 @@ jobs:
           port: 22
           script_stop: true
           script: |
-            kill -9 $(ps -ef | grep java | head -n 1 | awk '{print $2}')
+#            kill -9 $(ps -ef | grep java | head -n 1 | awk '{print $2}')
             java -jar *.jar
 #            nohup java -jar *.jar 1> /dev/null 2>&1 &
