@@ -42,3 +42,7 @@ tasks.named('test') {
 test {
 	useJUnitPlatform()
 }
+
+bootJar{
+	archiveFileName = 'assignment.jar'
+}
